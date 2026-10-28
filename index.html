@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokémon Finder</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Pokémon Finder</h1>
+            <h2>Search for a Pokémon or get 20 random Pokémon</h2>
+            <form>
+                <button type="button" class="btn pixelify-sans" id="fetch-button">
+                    Fetch 20 Random Pokémon
+                </button>
+                <span>or</span>
+                <input type="text" id="pokemon-name" placeholder="Enter Pokémon name" class="pixelify-sans" />
+                <button type="submit" id="search-button" class="pixelify-sans">Search</button>
+            </form>
+             <div class="container" id="user-container">
+            </div>
+        </header>
+        <script src="script.js"></script>
+    </body>
+</html>
